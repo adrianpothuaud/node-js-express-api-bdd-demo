@@ -1,0 +1,26 @@
+{
+  "name": "backend-bdd-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "cucumber-js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.2"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.5.1",
+    "chai": "^4.3.6",
+    "mongodb-memory-server": "^8.8.0",
+    "nodemon": "^2.0.19",
+    "supertest": "^6.2.4"
+  }
+}
