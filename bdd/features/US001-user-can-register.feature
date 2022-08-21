@@ -17,7 +17,7 @@ Feature: User can register
         When When "Jordan" makes a registration request
         Then "Jordan" User account is created
         And "Jordan" receives a successful response, with status "Created" and we tag the response as "jordanRegistrationResponse"
-        And In "jordanRegistrationResponse" response, "Jordan" is able to see his new account ID
+        And In "jordanRegistrationResponse" response, "Jordan" is only able to see his new account ID
 
     @RULE01 @error
     Scenario: Error case where the email is not provided
